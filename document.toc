@@ -1,0 +1,86 @@
+\boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
+\babel@toc {ngerman}{}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {1}Einleitung}{1}{section.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {1.1}Motivation}{1}{subsection.1.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {1.2}Ziel der Arbeit}{1}{subsection.1.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {2}Grundlagen}{1}{section.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.1}Additive Learning Resources - AdLeR}{1}{subsection.2.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.2}XML}{1}{subsection.2.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {2.2.1}Aufbau}{1}{subsubsection.2.2.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {2.2.2}Parsen}{2}{subsubsection.2.2.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.3}Implementierung}{2}{subsection.2.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {2.3.1}Java-Bibliotheken}{2}{subsubsection.2.3.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {2.3.2}Entwurf der GUI in IntelliJ}{2}{subsubsection.2.3.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {2.3.3}Evaluation}{2}{subsubsection.2.3.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3}Anforderungsanalyse}{2}{section.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.1}title}{2}{subsection.3.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4}Entwurf}{2}{section.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.1}Vergleich existierender XML- und HTML-Editoren}{2}{subsection.4.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {4.1.1}Adobe Dreamweaver}{2}{subsubsection.4.1.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {4.1.2}oxygenxml}{3}{subsubsection.4.1.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {4.1.3}easy xml Editor}{3}{subsubsection.4.1.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.2}Erster Entwurf}{3}{subsection.4.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {5}Implementierung}{3}{section.5}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {5.1}Benutzeroberfläche}{3}{subsection.5.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {5.1.1}Editieren der XML-Datei}{3}{subsubsection.5.1.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {5.1.2}Erweiterung um Dateitypen}{3}{subsubsection.5.1.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {5.1.3}title}{3}{subsubsection.5.1.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {5.2}Schnittstellen}{3}{subsection.5.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {5.2.1}Generierungstool für HTML}{3}{subsubsection.5.2.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {5.2.2}Aufbau der XML in DOM}{3}{subsubsection.5.2.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {5.2.3}title}{3}{subsubsection.5.2.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {6}Evaluierung}{3}{section.6}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {6.1}Evaluationsbogen}{3}{subsection.6.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {6.2}Durchführung}{3}{subsection.6.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {6.3}Auswertung}{3}{subsection.6.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {6.4}Verbesserung des Programms}{3}{subsection.6.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {6.5}(Zweite Evaluation)}{3}{subsection.6.5}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {7}Zusammenfassung}{3}{section.7}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {7.1}Erreichte Ergebnisse}{3}{subsection.7.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {7.2}Probleme und alternative Lösungen}{3}{subsection.7.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {7.3}Erweiterbarkeit}{3}{subsection.7.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {7.4}Ausblick}{3}{subsection.7.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{Literatur}{5}{subsection.7.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{Abbildungsverzeichnis}{5}{section*.2}

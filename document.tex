@@ -1,0 +1,138 @@
+\documentclass[12pt,twoside]{article}
+%\documentclass[12pt]{article}
+
+\usepackage{vorlage}
+\usepackage[backend=biber,
+%style=authoryear,
+%style=draft,
+style=numeric,
+%style=alphabetic,
+%citestyle=alphabetic,
+]{biblatex}
+
+
+
+\usepackage[autostyle]{csquotes}
+\usepackage{listings}
+
+%\usepackage[ngerman]{varioref}
+\usepackage{hyperref}
+\usepackage[ngerman]{cleveref}
+\usepackage{xcolor}
+
+
+
+% Die Referenzen befinden sich in der Datei referenzen.bib
+%\addbibresource{Visuelle Kryptographie.bib}
+\addbibresource{literatur.bib}
+
+
+% *****************************************************************************
+% * Bitte anpassen!
+% *****************************************************************************
+
+\renewcommand{\studentname}{Angelika Svoboda}
+\renewcommand{\studentmatrikelnr}{44539}
+
+\renewcommand{\ausarbeitungtitel}{Entwurf, Entwicklung und Evaluation eines XML-Editors für ein E-Learning-Tool}
+\renewcommand{\ausarbeitungart}{Bachelorarbeit}
+\renewcommand{\abgabedatum}{22.06.2018}
+\renewcommand{\studiengang}{Informatik}
+\renewcommand{\betreuereins}{Prof. Hermann}
+
+\graphicspath{ {Images/} }
+
+\lstset{language=Java,
+	showspaces=false,
+	showtabs=false,
+	breaklines=true,
+	showstringspaces=false,
+	breakatwhitespace=true,
+	basicstyle=\ttfamily,
+	moredelim=[il][\textcolor{pgrey}]{$$},
+	moredelim=[is][\textcolor{pgrey}]{\%\%}{\%\%}
+}
+\lstset{language=Python,
+	otherkeywords={self},
+	emph={MyClass,__init__},
+	basicstyle=\ttfamily,
+	frame=tb,
+	showstringspaces=false
+}
+
+\hypersetup{
+%	bookmarks=true,         % show bookmarks bar?
+%	unicode=false,          % non-Latin characters in Acrobat’s bookmarks
+	pdftoolbar=true,        % show Acrobat’s toolbar?
+	pdfmenubar=true,        % show Acrobat’s menu?
+	pdffitwindow=false,     % window fit to page when opened
+%	pdfstartview={FitH},    % fits the width of the page to the window
+%	pdftitle={My title},    % title
+%	pdfauthor={Author},     % author
+%	pdfsubject={Subject},   % subject of the document
+%	pdfcreator={Creator},   % creator of the document
+%	pdfproducer={Producer}, % producer of the document
+%	pdfkeywords={keyword1, key2, key3}, % list of keywords
+%	pdfnewwindow=true,      % links in new PDF window
+	colorlinks=true,       % false: boxed links; true: colored links
+	linkcolor=black,          % color of internal links (change box color with linkbordercolor)
+	citecolor=black,        % color of links to bibliography
+	filecolor=black,      % color of file links
+	urlcolor=black           % color of external links
+}
+
+\begin{document}
+
+\pagestyle{empty}
+\deckblatt%
+
+\cleardoublepage%
+\pagestyle{plain}
+\setcounter{page}{1}
+\pagenumbering{roman}
+\tableofcontents
+
+\cleardoublepage
+\setcounter{page}{1}
+
+\pagenumbering{arabic}
+
+
+% Kapitel
+
+\input{einleitung}
+
+\input{grundlagen}
+
+\input{anforderungsanalyse}
+
+\input{entwurf}
+
+\input{implementierung}
+
+\input{evaluierung}
+
+\input{zusammenfassung}
+
+% Ausgabe des Literaturverzeichnisses
+\cleardoublepage%
+\nocite{*}
+\printbibliography
+
+%Literatur ins Inhaltsverzeichnis hinzufügen.
+\addcontentsline{toc}{section}{Literatur}
+\clearpage
+%Abbildungsverzeichnis
+\listoffigures
+\addcontentsline{toc}{section}{Abbildungsverzeichnis}
+
+% Eidesstattliche Erklärung (Bei Abgabe unterschreiben)
+\eidesstattlicheerklaerung%
+
+\end{document}
+
+%%% Local Variables:
+%%% mode: latex
+%%% TeX-engine: xetex
+%%% TeX-master: t
+%%% End:
